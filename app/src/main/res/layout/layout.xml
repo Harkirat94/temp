@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_marginTop="2dp"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Location"
+        android:id="@+id/Location"
+        android:layout_weight="0.10" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/Details"
+        android:layout_weight="0.30"
+        android:hint="Enter any details / description  you wish to add" />
+
+
+    <LinearLayout
+        android:id="@+id/buttons_container_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="date"
+            android:ems="10"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/DateString"
+            android:text="SelectDate " />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="date"
+            android:ems="10"
+            android:backgroundTint="@color/accent_material_dark"
+            android:id="@+id/Date"
+            />
+
+
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons_container_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="time"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:ems="10"
+            android:id="@+id/TimeString"
+            android:text="Select Time" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="time"
+            android:ems="10"
+            android:backgroundTint="@color/accent_material_dark"
+            android:id="@+id/Time"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/buttons_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/NoOfVolunteersString"
+            android:text="Volunteers Required" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:ems="10"
+            android:backgroundTint="@color/accent_material_dark"
+            android:id="@+id/NoOfVolunteers"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

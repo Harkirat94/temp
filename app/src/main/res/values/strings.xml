@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">KleanIt</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="facebook_app_id">265917790408880</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_upload_dialog">UploadDialogActivity</string>
+</resources>
